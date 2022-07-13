@@ -1,0 +1,31 @@
+.NavBar-header {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.NavBarLogo {
+    flex-grow: 0.3;
+    text-align: left;
+}
+
+.NavBar-link {
+    color: #61dafb;
+}
+
+.NavBarUl {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.NavBarUl li a {
+    text-decoration: none;
+    color: white;
+}
+
+.NavBarUl li a:hover {
+    color: rgb(91, 95, 143);
+}
