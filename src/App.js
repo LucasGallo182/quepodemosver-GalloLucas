@@ -1,18 +1,12 @@
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <ul className="appUl">
-          <li>Inicio</li>
-          <li>Películas</li>
-          <li>Series</li>
-          <li>Que podemos ver?</li>
-        </ul>
-      </header>
+      <NavBar/>
       <section className="appSection">
-        <h1>Prueba con ReactJS</h1>
+        <h1>Prueba con ReactJS, agregando logo y componente NavBar.js</h1>
       </section>
     </div>
   );
